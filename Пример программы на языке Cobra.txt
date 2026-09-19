@@ -1,0 +1,18 @@
+Пример программы на языке Cobra:
+
+int x = 1;
+
+proc foo(int v){
+print v;
+}
+
+proc main(){
+if x > 0 {
+   foo(x);
+}
+else{
+   while x > 0{
+      foo(x+1);
+   }
+}
+}
